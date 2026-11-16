@@ -1,0 +1,38 @@
+{
+  "name": "integrity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@node-rs/xxhash": "^1.4.2",
+    "@types/yaml": "^1.9.7",
+    "axios": "^1.4.0",
+    "glob": "^10.3.4",
+    "long": "^5.2.3",
+    "minimatch": "^9.0.3",
+    "nexe": "^4.0.0-rc.2",
+    "node-7z": "^3.0.0",
+    "protobufjs": "^7.2.4",
+    "queue": "^7.0.0",
+    "terminal-kit": "^3.0.0",
+    "uuid": "^9.0.0",
+    "xxhash": "^0.3.0",
+    "xxhash-addon": "^2.0.1",
+    "xxhash-wasm": "^1.0.2",
+    "yaml": "^2.3.2",
+    "yargs": "^17.7.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chialab/esbuild-plugin-commonjs": "^0.17.2",
+    "@types/node-7z": "^2.1.5",
+    "@types/terminal-kit": "^2.5.1",
+    "@types/uuid": "^9.0.3",
+    "@types/yargs": "^17.0.24",
+    "esbuild": "^0.19.2"
+  }
+}

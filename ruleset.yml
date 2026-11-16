@@ -1,0 +1,110 @@
+---
+"**/README.txt":
+  ignore: true
+"**/servercache.xml":
+  ignore: true
+"**/coreconfig.xml":
+  ignore: true
+"**/logfile.txt":
+  ignore: true
+"**/logfile.txt.1":
+  ignore: true
+"**/*.zip":
+  ignore: true
+"**/*.torrent":
+  ignore: true
+"**/LOG.old":
+  ignore: true
+"**/LOG":
+  ignore: true
+"**/*.log":
+  ignore: true
+"**/*.log1":
+  ignore: true
+"**/*.LOG":
+  ignore: true
+"**/*.LOG1":
+  ignore: true
+"**/*.Log":
+  ignore: true
+"**/*.Log1":
+  ignore: true
+"**/*.log.*":
+  ignore: true
+"**/*":
+  pack.divide: 64m
+  pack.name: root$.7z
+  pack.method: BROTLI
+  pack.compression: 5
+"**/*.png":
+  pack.name: precompressed16_$.7z
+  pack.compression: 0
+  pack.divide: 16m
+"**/*.jpg":
+  pack.name: precompressed16_$.7z
+  pack.compression: 0
+  pack.divide: 16m
+"**/*.mp4":
+  pack.name: precompressed16_$.7z
+  pack.compression: 0
+  pack.divide: 16m
+"**/*.gif":
+  pack.name: precompressed16_$.7z
+  pack.compression: 0
+  pack.divide: 16m
+"**/*.webm":
+  pack.name: precompressed16_$.7z
+  pack.compression: 0
+  pack.divide: 16m
+"**/*.webp":
+  pack.name: precompressed16_$.7z
+  pack.compression: 0
+  pack.divide: 16m
+"**/*.mp3":
+  pack.name: precompressed5_$.7z
+  pack.compression: 0
+  pack.divide: 64m
+"**/*.ogg":
+  pack.name: precompressed5_$.7z
+  pack.compression: 0
+  pack.divide: 64m
+"**/*.pak":
+  pack.name: precompressed256_$.7z
+  pack.method: BROTLI
+  pack.compression: 0
+  pack.divide: 256m
+"**/*.cab":
+  pack.name: precompressed64_$.7z
+  pack.method: BROTLI
+  pack.compression: 0
+  pack.divide: 64m
+"**/*.svg":
+  pack.name: content14_$.7z
+  pack.method: BROTLI
+  pack.compression: 11
+  pack.divide: 28m
+"**/*.json":
+  pack.name: content5_$.7z
+  pack.method: BROTLI
+  pack.compression: 11
+  pack.divide: 64m
+"**/*.js":
+  pack.name: content14_$.7z
+  pack.method: BROTLI
+  pack.compression: 11
+  pack.divide: 28m
+"**/*.woff":
+  pack.name: content5_$.7z
+  pack.method: BROTLI
+  pack.compression: 11
+  pack.divide: 64m
+"**/*.woff2":
+  pack.name: content5_$.7z
+  pack.method: BROTLI
+  pack.compression: 11
+  pack.divide: 64m
+"**/*.ttf":
+  pack.name: content5_$.7z
+  pack.method: BROTLI
+  pack.compression: 11
+  pack.divide: 64m
